@@ -8,7 +8,7 @@ Leila Rahimiyadkuri · Forough Asgari · Sara Davoodabadi
 
 ## Research Question
 
-Does the type of contract a telecom customer holds (*month-to-month* vs. *longer-term*) causally increase their probability of churning — and does this effect differ across distinct customer segments identified through unsupervised learning?
+Does the type of contract a telecom customer holds (month-to-month vs. longer-term) causally increase their probability of churning and does this effect differ across distinct customer segments identified through unsupervised learning?
 
 ---
 
@@ -19,7 +19,7 @@ Does the type of contract a telecom customer holds (*month-to-month* vs. *longer
 | `mission.ipynb` | Final notebook — fully executed, all outputs visible |
 | `requirements.txt` | Python dependencies |
 | `slides.pdf` | Presentation slides (5 content slides + title + references) |
-| `README.md` | This file |
+
 
 > **Data:** The dataset is downloaded automatically inside the notebook via `kagglehub`. No manual download needed.
 
@@ -27,11 +27,11 @@ Does the type of contract a telecom customer holds (*month-to-month* vs. *longer
 
 ## Methods
 
-| Block | Method | Key result |
+| Block | Method |
 |-------|--------|-----------|
-| Causal Inference | DoWhy backdoor adjustment | Contract type: ATE = −0.13 · Tech Support: ATE = −0.10 |
-| Supervised Learning | Logistic Regression + Random Forest | RF AUC-ROC = 0.86 |
-| Unsupervised Learning | K-Means (k=3) | Silhouette ≈ 0.64 · Cluster 1 = 32.1% churn rate |
+| Causal Inference | DoWhy backdoor adjustment | 
+| Supervised Learning | Logistic Regression + Random Forest | 
+| Unsupervised Learning | K-Means |
 
 ---
 
@@ -46,16 +46,7 @@ jupyter notebook mission.ipynb
 
 ---
 
-## Work Plan
 
-| Section | Responsible |
-|---------|-------------|
-| EDA + Causal Inference | Leila Rahimiyadkuri |
-| Supervised Learning | Sara Davoodabadi |
-| Unsupervised Learning | Forough Asgari |
-| Synthesis & write-up | All members |
-
----
 
 ## Key Finding
 
