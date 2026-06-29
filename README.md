@@ -16,7 +16,7 @@ Does the type of contract a telecom customer holds (month-to-month vs. longer-te
 
 | File | Description |
 |------|-------------|
-| [`mission.ipynb`](./mission.ipynb) | Final notebook - fully executed, all outputs visible |
+| [`mission.ipynb`](./notebooks/mission.ipynb) | Final notebook - fully executed, all outputs visible |
 | [`requirements.txt`](./requirements.txt) | Python dependencies |
 | [`slides.pdf`](./slides.pdf) | Presentation slides |
 
