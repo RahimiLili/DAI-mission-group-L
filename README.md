@@ -18,7 +18,7 @@ Does the type of contract a telecom customer holds (month-to-month vs. longer-te
 |------|-------------|
 | [`mission.ipynb`](./notebooks/mission.ipynb) | Final notebook - fully executed, all outputs visible |
 | [`requirements.txt`](./requirements.txt) | Python dependencies |
-| [`slides.pdf`](./slides.pdf) | Presentation slides |
+| [`presentation.pdf`](./presentation.pdf) | Presentation slides |
 
 > **Data:** The dataset is downloaded automatically inside the notebook via `kagglehub`. No manual download needed.
 
