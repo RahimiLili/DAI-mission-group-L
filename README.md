@@ -16,7 +16,7 @@ Does the type of contract a telecom customer holds (month-to-month vs. longer-te
 
 | File | Description |
 |------|-------------|
-| [`mission.ipynb`](./mission.ipynb) | Final notebook - fully executed, all outputs visible |
+| [`mission.ipynb`](./notebooks/mission.ipynb) | Final notebook - fully executed, all outputs visible |
 | [`requirements.txt`](./requirements.txt) | Python dependencies |
 | [`slides.pdf`](./slides.pdf) | Presentation slides |
 
@@ -49,4 +49,4 @@ jupyter notebook mission.ipynb
 
 ## Key Finding
 
-Month-to-month contracts are the primary structural driver of churn. Moving a customer to a longer contract causally reduces their churn probability by ~13 percentage points. Cluster 1 (new customers, ~18 months tenure, 32% churn rate) is the highest-risk segment and the most effective target for contract upgrade incentives.
+Month-to-month contracts are the primary structural driver of churn. Moving a customer to a longer contract causally reduces their churn probability.
